@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+span {
+    color: grey;
+    font-size: 20px;
+}
+
+header{
+    border-bottom: 1px solid grey;
+}
+
+h3{
+    margin-top: 50px;
+}
+p{
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.wrapper{
+    max-width: 1024px;
+    margin: auto;
+}
+.header_top{
+    height: 90px;
+    margin-bottom: 40px;
+}
+.header_top img{
+    width: 90px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+.header_top ul{
+    list-style: none;
+    display: flex;
+}
+.header_top ul li{
+    margin-left: 20px;
+}
+.header_top ul li a{
+    text-decoration: none;
+    margin-right: 40px;
+    color: grey;
+}
